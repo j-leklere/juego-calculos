@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculos Rapidos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1 class="nombre-juego">Cálculos Rápidos</h1>
+
+      <!-- Jugador 1 -->
+      <h2 class="nombre-jugador">Jugador 1</h2>
+      <div class="part--2">
+        <div class="tiempo tiempo--1">
+          <span>Tiempo:</span>
+          <span class="numTiempo--1"> 10</span>
+        </div>
+        <div class="calculos calculo--1">
+          <span id="num1--1">4</span>
+          <span id="operador--1">+</span>
+          <span id="num2--1">2</span>
+          <span> = </span>
+          <input type="text" id="respuesta--1" />
+        </div>
+      </div>
+      <div class="part--3 part--3-1">
+        <div class="contador contador--1">
+          <span>Contador:</span>
+          <span class="numContador--1"> 60</span>
+        </div>
+        <div class="correctas correctas--1">
+          <span>Correctas:</span>
+          <span class="numCorrectas--1"> 0</span>
+        </div>
+        <div class="incorrectas incorrectas--1">
+          <span>Incorrectas:</span>
+          <span class="numIncorrectas--1"> 0</span>
+        </div>
+      </div>
+
+      <button class="start">Start</button>
+      <div class="calculo-numero">1</div>
+      <button class="stop">Stop</button>
+
+      <!-- Jugador 2 -->
+      <h2 class="nombre-jugador">Jugador 2</h2>
+
+      <div class="part--2">
+        <div class="tiempo tiempo--2">
+          <span>Tiempo:</span>
+          <span class="numTiempo--2"> 10</span>
+        </div>
+        <div class="calculos calculo--2">
+          <span id="num1--2">3</span>
+          <span id="operador--2">+</span>
+          <span id="num2--2">7</span>
+          <span> = </span>
+          <input type="text" id="respuesta--2" />
+        </div>
+      </div>
+
+      <div class="part--3">
+        <div class="contador contador--2">
+          <span>Contador:</span>
+          <span class="numContador--2"> 60</span>
+        </div>
+        <div class="correctas correctas--2">
+          <span>Correctas:</span>
+          <span class="numCorrectas--2"> 0</span>
+        </div>
+        <div class="incorrectas incorrectas--2">
+          <span>Incorrectas:</span>
+          <span class="numIncorrectas--2"> 0</span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
